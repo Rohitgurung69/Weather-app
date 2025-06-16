@@ -1,14 +1,22 @@
 body {
-  font-family: 'Arial', sans-serif;
-  background: #87CEFA;  
   margin: 0;
   padding: 0;
-  color: #fff;
+  height: 100vh;
+  background-color: #87cefa; /* Light blue background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
 }
 
 .App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  width: 100%;
   max-width: 600px;
-  margin: 0 auto;
   padding: 30px;
   background-color: rgba(255, 255, 255, 0.9);
   border-radius: 20px;
@@ -19,7 +27,7 @@ body {
 h1 {
   font-size: 3rem;
   margin-bottom: 20px;
-  color: #1E90FF;  
+  color: #1E90FF;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
@@ -27,7 +35,7 @@ select {
   width: 220px;
   padding: 12px;
   font-size: 16px;
-  background-color: #1E90FF;  
+  background-color: #1E90FF;
   color: white;
   border: none;
   border-radius: 10px;
@@ -38,7 +46,7 @@ select {
 }
 
 select:hover {
-  background-color: #4682B4;  
+  background-color: #4682B4;
 }
 
 .weather-container {
@@ -53,7 +61,7 @@ select:hover {
 .weather-container h2 {
   font-size: 2rem;
   font-weight: bold;
-  color: #1E90FF;  
+  color: #1E90FF;
 }
 
 .weather-container p {
@@ -65,11 +73,11 @@ select:hover {
 .weather-container p:first-child {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #1E90FF;  
+  color: #1E90FF;
 }
 
 .weather-container p:last-child {
-  color: #1E90FF;  
+  color: #1E90FF;
 }
 
 .loading-message {
@@ -91,7 +99,7 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: #1E90FF;  
+  color: #1E90FF;
   font-size: 18px;
   margin: 0 25px;
   font-weight: bold;
@@ -99,5 +107,39 @@ nav a {
 }
 
 nav a:hover {
-  color: #4682B4;  
+  color: #4682B4;
+}
+
+.about-page {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  color: #333;
+}
+
+.about-page h2 {
+  font-size: 2rem;
+  color: #1E90FF;
+}
+
+.about-page p {
+  font-size: 1.2rem;
+  color: #000;
+}
+
+.contact-page {
+  background-color: #e9ecef;
+  padding: 20px;
+  border-radius: 10px;
+  color: #333;
+}
+
+.contact-page h2 {
+  font-size: 2rem;
+  color: #FF6347;
+}
+
+.contact-page p {
+  font-size: 1.2rem;
+  color: #000;
 }
