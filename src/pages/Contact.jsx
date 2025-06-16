@@ -1,12 +1,14 @@
 import React from 'react';
 
-const Contact = () => {
+function Contact() {
   return (
-    <div>
-      <h1>Contact</h1>
-      <p>For inquiries, contact us at: roheetgurung96@gmail.com</p>
+    <div className="contact-page">
+      <h2>Contact Us</h2>
+      <p>For any inquiries, feel free to reach out to us via email.</p>
+      <p>Email: contact@weatherapp.com</p>
     </div>
   );
-};
+}
 
 export default Contact;
+
